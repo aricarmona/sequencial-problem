@@ -13,7 +13,7 @@ def get_number():
     try:
         opts, args = getopt.getopt(args, 'hn:', ['number='])
     except getopt.GetoptError:
-        print 'Problemas com o comando.\nExemplo de uso: ciro.py -n number'
+        print 'Problemas com comando.\nExemplo de uso: solution-a.py -n number'
         sys.exit(2)
 
     opt, number = opts[0]
